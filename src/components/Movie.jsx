@@ -3,7 +3,7 @@ import "./Movie.css";
 function Movie(props) {
     
     return (
-        <section key={props.movieDetails.id} className="Movie">
+        <section className="Movie">
             <h2>{props.movieDetails.title}</h2>
 
             {props.movieDetails.imgURL
