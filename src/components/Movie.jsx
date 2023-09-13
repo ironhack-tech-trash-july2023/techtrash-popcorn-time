@@ -14,7 +14,7 @@ function Movie(props) {
             <h3>Rating: {props.movieDetails.rating}</h3>
             {props.movieDetails.rating > 8 && <p>RECOMMENDED</p>}
 
-            <button onClick={() => { props.callbackToDelete(props.movieDetails.id) }}>Delete</button>
+            <button onClick={() => { props.callbackToDelete(props.movieDetails.title) }}>Delete</button>
         </section>
     )
 }
